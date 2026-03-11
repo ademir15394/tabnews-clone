@@ -12,13 +12,16 @@
   },
   "license": "MIT",
   "author": "",
-  "type": "commonjs",
+  "module": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "next": "^13.1.6",
-    "react": "^19.2.1"
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
